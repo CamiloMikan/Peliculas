@@ -1,0 +1,39 @@
+ion-content {
+    --background: none;
+    background-image: url('https://img.freepik.com/vector-premium/fondo-cartelera-cine-caja-luz-retro_567288-1634.jpg?w=2000');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .login-card {
+    max-width: 400px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 6px 6px rgb(0, 0, 0);
+  }
+  
+
+.cinema-card-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #000000;
+    text-align: center;
+}
+
+
+.login-form {
+    margin-top: 10px;
+}
+
+.cinema-form-item {
+    margin-bottom: 15px;
+}
+
+.cinema-label {
+    font-size: 14px;
+    color: #333;
+
+}
+

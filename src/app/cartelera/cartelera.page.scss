@@ -1,0 +1,43 @@
+/* Estilos para el encabezado */
+ion-header {
+  --ion-background-color: #000000;
+}
+
+ion-title {
+  color: white;
+}
+
+ion-list {
+  padding: 20px;
+}
+
+
+ion-card {
+  margin-bottom: 15px;
+}
+
+img {
+  width: auto;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Estilos para el título de la película */
+h2 {
+  margin-top: 10px;
+  
+}
+
+/* Estilos para el texto de categorías */
+p {
+  font-size: 12px;
+  /* Ajustar el tamaño de fuente del texto de categorías */
+  margin-top: 5px;
+  /* Agregar margen superior al texto de categorías */
+}
+
+/* Estilos para el botón de menú */
+ion-menu-button {
+  color: white;
+  /* Cambiar el color del botón de menú */
+}

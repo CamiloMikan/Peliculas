@@ -1,0 +1,33 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="dark">
+    <ion-title style="text-align: center;">Iniciar sesión</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <br><br><br><br><br><br><br>
+  
+  <ion-card class="login-card">
+    <ion-card-header>
+      <ion-card-title class="cinema-card-title">¡Bienvenido a Nuestro Cine!</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+
+      <form (ngSubmit)="login()" class="login-form">
+        <ion-item  class="cinema-form-item">
+          <ion-label position="floating" class="cinema-label">Correo electrónico</ion-label>
+          <ion-input [(ngModel)]="email" name="email" type="email" class="cinema-input"></ion-input>
+        </ion-item>
+      
+        <ion-item class="cinema-form-item">
+          <ion-label position="floating" class="cinema-label">Contraseña</ion-label>
+          <ion-input [(ngModel)]="password" name="password" type="password" class="cinema-input"></ion-input>
+        </ion-item>
+      
+        <ion-button expand="full" type="submit" class="cinema-button">Ingresar</ion-button>
+      </form>
+      
+    </ion-card-content>
+  </ion-card>
+
+</ion-content>
