@@ -4,16 +4,16 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
-  <br><br><br><br><br><br><br>
+<ion-content class="center">
   
-  <ion-card class="login-card">
+  <br><br><br><br><br><br><br><br><br>
+  <ion-card class="center">
     <ion-card-header>
       <ion-card-title class="cinema-card-title">¡Bienvenido a Nuestro Cine!</ion-card-title>
     </ion-card-header>
     <ion-card-content>
 
-      <form (ngSubmit)="login()" class="login-form">
+      <form (ngSubmit)="login()" class="center">
         <ion-item  class="cinema-form-item">
           <ion-label position="floating" class="cinema-label">Correo electrónico</ion-label>
           <ion-input [(ngModel)]="email" name="email" type="email" class="cinema-input"></ion-input>
@@ -29,5 +29,6 @@
       
     </ion-card-content>
   </ion-card>
+
 
 </ion-content>

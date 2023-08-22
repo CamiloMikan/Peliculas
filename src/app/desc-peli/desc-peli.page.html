@@ -17,9 +17,10 @@
 
     <ion-item lines="none">
       <h2>{{titleNew}}</h2>
-      
+
     </ion-item>
   </ion-list>
+
   <ion-card>
     <img alt="imagen Pelicula" src="{{url_imagNew}}" />
     <ion-card-header>
@@ -37,17 +38,24 @@
     <ion-card-content>
       <h4>Descripción:</h4>
       <p>{{text_longNew}}</p>
+
     </ion-card-content>
-    <ion-footer>
-      <ion-toolbar>
+
+
+    <ion-footer >
+      <ion-toolbar >
 
         <ion-item lines="none">
           <ion-label>Puntuación:</ion-label>
-          <ion-icon name="star" *ngFor="let _ of generateArray(5); let index = index" (click)="rateStar($event, index)" [class.selected]="stars[index]"></ion-icon>
+          <ion-icon name="star" *ngFor="let _ of generateArray(5); let index = index" (click)="rateStar($event, index)"
+            [class.selected]="stars[index]"></ion-icon>
           <ion-icon slot="end" color="primary" name="play-back-outline" (click)="back()"></ion-icon>
         </ion-item>
 
       </ion-toolbar>
+
+
+
     </ion-footer>
   </ion-card>
 

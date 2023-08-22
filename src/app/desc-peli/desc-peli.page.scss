@@ -1,6 +1,6 @@
 /* Estilos generales */
 ion-content {
-  --ion-background-color: #f4f4f4;
+  --ion-background-color: #f0f8ff;
 }
 
 ion-title {
@@ -11,7 +11,6 @@ ion-title {
 ion-card {
   margin: 20px;
   border-radius: 8px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
 
 ion-card-header {
@@ -39,5 +38,5 @@ ion-icon {
 }
 
 ion-icon.selected {
-  color: #fbff00; 
+  color: rgb(255, 255, 82); 
 }

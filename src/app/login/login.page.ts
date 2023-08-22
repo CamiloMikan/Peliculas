@@ -21,13 +21,13 @@ export class LoginPage {
 
   login() {
 
-    if (this.email == 'cl' && this.password == 'co') {
+    if (this.email == '123' && this.password == '123') {
       this.router.navigate(['/cartelera']);
       this.token = true;
       console.log(this.token)
       localStorage.setItem('token',JSON.stringify(this.token));
     } else {
-      console.log('Credenciales incorrectas');
+      console.log('Usuario y contraseña incorrectos');
     }
   }
 }
